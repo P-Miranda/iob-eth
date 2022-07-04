@@ -32,7 +32,7 @@ ETH_MINIMUM_NBYTES = (64-18)
 #Frame header
 ETH_HEADER = dst_addr + src_addr + eth_type
 
-TIMEOUT = 0.1
+TIMEOUT = 0.5
 
 #Open socket and bind
 def CreateSocket():
